@@ -1,6 +1,6 @@
 let input1 = document.querySelector('#numA');
 let input2 = document.querySelector('#numB');
-let result = document.querySelector('#result');
+let result = document.querySelector('#result1');
 
 let addBtn = document.querySelector('#add');
 let minusBtn = document.querySelector('#minus');
