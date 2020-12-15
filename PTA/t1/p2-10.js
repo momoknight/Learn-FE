@@ -1,7 +1,7 @@
 let funcBtn = document.querySelector('#funcBtn');
 
 funcBtn.addEventListener('click', function() {
-    let x = parseInt(document.querySelector('#segFunc').value).toFixed(1);
+    let x = parseFloat(document.querySelector('#segFunc').value).toFixed(1);
     let y = 0;
     let result = document.querySelector('#result2');
 

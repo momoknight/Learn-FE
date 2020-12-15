@@ -1,6 +1,5 @@
 let input1 = document.querySelector('#numA');
 let input2 = document.querySelector('#numB');
-let result = document.querySelector('#result1');
 
 let addBtn = document.querySelector('#add');
 let minusBtn = document.querySelector('#minus');
@@ -31,6 +30,7 @@ btnList.forEach((val, idx) => {
     val.addEventListener('click', function() {
         let n1 = parseInt(input1.value);
         let n2 = parseInt(input2.value);
+        let result = document.querySelector('#result1');
         if (n1 <= 0 || !Number.isInteger(n1)) {
             alert('A请输入正整数');
         }
