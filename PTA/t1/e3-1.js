@@ -1,7 +1,5 @@
 let btn1 = document.querySelector('#btn1');
 
-
-
 btn1.addEventListener('click', function () {
   let a = parseInt(document.querySelector('#a').value);
   let b = parseInt(document.querySelector('#b').value);
