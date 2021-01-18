@@ -1,7 +1,6 @@
 let btn9 = document.querySelector('#btn9');
 
 btn9.addEventListener('click', function () {
-  let h = parseInt(document.querySelector('#h').value);
   let n = parseInt(document.querySelector('#n9').value);
   let result = document.querySelector('#result9');
   let resultStr = '<br>';
