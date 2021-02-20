@@ -7,9 +7,7 @@ btn7.addEventListener('click', function () {
 
   a = parseInt(prompt('Please enter a number or an operator: '));
   operation = a;
-  // if (!isNaN(input)) {
-  //   input = parseInt(input);
-  // }
+
   input = prompt('Please enter a number or an operator: ');
   while (input != null) {
     switch (input) {
